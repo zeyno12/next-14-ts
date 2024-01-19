@@ -19,7 +19,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
   };
 
   return (
-    <div className='w-fit'>
+    <div data-testid="filter" className='w-fit'>
       <Listbox
         value={selected}
         onChange={(e) => {

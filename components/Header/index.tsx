@@ -10,7 +10,7 @@ const Header = () => {
     }
 
     return (
-        <div className="hero">
+        <div data-testid="header" className="hero">
             <div className="flex-1 p-36 padding-x">
                 <h1 className="hero__title">Find rent a car - quickly and easy!</h1>
                 <p className="hero__subtitle">Streamine your car rental experience with our effortless booking process.</p>

@@ -14,6 +14,9 @@ export interface CarProps {
   transmission: string;
   year: number;
 }
+export interface Car {
+  id: string;
+}
 
 export interface FilterProps {
   manufacturer?: string;
@@ -24,9 +27,9 @@ export interface FilterProps {
 }
 
 export interface HomeProps {
+  allCars: Car[]; // Adjust the type based on your data structure
   searchParams: FilterProps;
 }
-
 export interface CarCardProps {
   model: string;
   make: string;
